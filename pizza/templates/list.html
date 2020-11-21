@@ -1,0 +1,9 @@
+<h1>All books</h1>
+{% for pizza in object_list %}
+<ul>
+<li>name: {{ pizza.name }}</li>
+<li>toppings: {{ pizza.toppings }}</li>
+<li>shape: {{ pizza.shape }}</li>
+<li>size: {{ pizza.size }}</li>
+</ul>
+{% endfor %}
