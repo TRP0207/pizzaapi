@@ -1,9 +1,3 @@
-'''from django.views.generic import ListView
-from .models import Pizza
-class PizzaListView(ListView):
-    model = Pizza
-    template_name = 'list.html'
-'''
 
 from rest_framework import generics
 from .models import Pizza
