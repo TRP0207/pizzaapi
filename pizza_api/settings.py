@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'pizza_api.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blog',
-        'USER':'rahul',
-        'PASSWORD':'rahul0207',
+        'NAME': '<db_name>',
+        'USER':'<db_username>',
+        'PASSWORD':'<db_pass>',
         'HOST':'localhost',
         'POR':'5432',
     }
