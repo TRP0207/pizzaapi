@@ -29,18 +29,3 @@ class PizzaDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Pizza.objects.all()
     serializer_class = PizzaSerializer
 
-
-# class SpesList(generics.ListAPIView):
-#     serializer_class = PizzaSerializer
-#
-#     def get_queryset(self):
-#         shape = self.kwargs['shape']
-#         size = self.kwargs['size']
-#         queryset = Pizza.objects.all()
-#         if shape is not None:
-#             queryset = queryset.filter(shape=shape)
-#         if size is not None:
-#             queryset = queryset.filter(size=size)
-#         return queryset
-
-
